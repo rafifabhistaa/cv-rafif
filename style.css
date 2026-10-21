@@ -112,7 +112,7 @@ footer { text-align: center; padding: 30px 14px 56px; color: var(--muted); font-
 
 @media (max-width: 760px) {
   .hero { grid-template-columns: 1fr; padding-top: 48px; }
-  .photo { max-width: 260px; margin: 0 auto 24px; }
+  .photo { width: 260px; max-width: 100%; margin: 0 auto 24px; } 
   .nav nav { display: none; }
   .bento, .project { grid-template-columns: 1fr; }
   .timeline { padding-left: 22px; }
